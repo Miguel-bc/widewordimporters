@@ -18,8 +18,8 @@ Este proyecto contiene ejemplos y demostraciones de habilidades en SQL Server ut
 ## Cómo Configurar el Proyecto
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/tu-usuario/my-sql-project.git
-   cd my-sql-project
+   git clone https://github.com/Miguel-bc/widewordimporters.git
+   cd widewordimporters
 
 ### 2. Descargar los Archivos de la Base de Datos
 Descarga los archivos `.bak` de la base de datos desde los siguientes enlaces y colócalos en la carpeta `/data`:
