@@ -56,8 +56,14 @@ WITH MOVE 'WWI_DW_Primary' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSS
      MOVE 'WWI_DW_Log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\WideWorldImportersDW_log.ldf',
      REPLACE;
 
-### 4. Ejecutar los Scripts SQL
-Ejecuta los scripts SQL en `/src/sql` para crear procedimientos almacenados, vistas, funciones, etc.
+### 4. Ejecutar los Scripts SQL en SSMS
+
+- Abre SSMS y conéctate a tu instancia de SQL Server.
+- Abre una nueva consulta (Ctrl + N).
+- Copia y pega tu script SQL en la ventana de consulta.
+- Asegúrate de seleccionar la base de datos correcta en la lista desplegable de la barra de herramientas de SSMS.
+- Ejecuta el script presionando F5 o haciendo clic en el botón de ejecución (o puedes ejecutar secciones específicas de tu script seleccionándolas y luego ejecutándolas).
+- Ejecuta los scripts SQL en `/src/sql` para crear procedimientos almacenados, vistas, funciones, etc.
 
 ### 5. Consultar Documentación Adicional
 Consulta la documentación adicional en `/docs` para más detalles sobre el uso y la estructura del proyecto.
