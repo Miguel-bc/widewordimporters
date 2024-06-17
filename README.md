@@ -24,6 +24,8 @@ Este proyecto contiene ejemplos y demostraciones de habilidades en SQL Server ut
 ### 2. Descargar los Archivos de la Base de Datos
 Descarga el archivo `.bak` de la base de datos desde el siguiente enlace y colócalo en la carpeta `/data`:
 
+<a href="[https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0]" target="_blank">Visita OpenAI</a>
+
 - [WideWorldImporters](https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0)
 
 En este proyecto, utilicé la base de datos WideWorldImportersDW-Full.bak para OLAP (Procesamiento Analítico en Línea), ideal para análisis y reportes de datos, mientras que WideWorldImporters-Full.bak, se utiliza para OLTP (Procesamiento de Transacciones en Línea) y HTAP (Procesamiento Híbrido de Transacciones y Análisis). La base de datos OLTP es adecuada para manejar un gran número de transacciones rápidas y consistentes, mientras que HTAP permite realizar análisis operativos en tiempo real.
