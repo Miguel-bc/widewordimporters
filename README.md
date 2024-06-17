@@ -55,7 +55,7 @@ FROM DISK = 'C:\path\to\your\project\data\WideWorldImportersDW-Standard.bak'
 WITH MOVE 'WWI_DW_Primary' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\WideWorldImportersDW.mdf',
      MOVE 'WWI_DW_Log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\WideWorldImportersDW_log.ldf',
      REPLACE;
-'''
+```
 
 ### 4. Ejecutar los Scripts SQL en SSMS
 
