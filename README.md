@@ -56,6 +56,7 @@ WITH MOVE 'WWI_DW_Primary' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSS
      MOVE 'WWI_DW_Log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\WideWorldImportersDW_log.ldf',
      REPLACE;
 
+
 ### 4. Ejecutar los Scripts SQL en SSMS
 
 - Abre SSMS y conéctate a tu instancia de SQL Server.
