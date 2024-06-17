@@ -24,7 +24,7 @@ Este proyecto contiene ejemplos y demostraciones de habilidades en SQL Server ut
 ### 2. Descargar los Archivos de la Base de Datos
 Descarga el archivo `.bak` de la base de datos desde el siguiente enlace y colócalo en la carpeta `/data`:
 
-<a href="[https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0]" target="_blank">Visita OpenAI</a>
+<a href="https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0" target="_blank">WideWorldImporters</a>
 
 - [WideWorldImporters](https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0)
 
