@@ -24,8 +24,7 @@ Este proyecto contiene ejemplos y demostraciones de habilidades en SQL Server ut
 ### 2. Descargar los Archivos de la Base de Datos
 Descarga los archivos `.bak` de la base de datos desde los siguientes enlaces y colócalos en la carpeta `/data`:
 
-- [WideWorldImporters OLTP Download](enlace-a-descarga-oltp)
-- [WideWorldImporters OLAP Download](enlace-a-descarga-olap)
+- [WideWorldImporters](https://www.microsoft.com/en-us/download/details.aspx?id=49506)
 
 ### 3. Restaurar las Bases de Datos
 Restaura las bases de datos utilizando SQL Server Management Studio o los scripts de restauración en `/src/scripts`:
