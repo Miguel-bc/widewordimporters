@@ -42,13 +42,6 @@ Restaura las bases de datos utilizando SQL Server Management Studio o los script
 Ejecuta los siguientes scripts SQL en SSMS:
 
 ```sql
--- Restaurar WideWorldImporters OLTP
-RESTORE DATABASE WideWorldImporters
-FROM DISK = 'C:\path\to\your\project\data\WideWorldImporters-Standard.bak'
-WITH MOVE 'WWI_Primary' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\WideWorldImporters.mdf',
-     MOVE 'WWI_Log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\WideWorldImporters_log.ldf',
-     REPLACE;
-
 -- Restaurar WideWorldImportersDW OLAP
 RESTORE DATABASE WideWorldImportersDW
 FROM DISK = 'C:\path\to\your\project\data\WideWorldImportersDW-Standard.bak'
