@@ -2,7 +2,7 @@
 # My SQL Project
 
 ## Descripción
-Este proyecto contiene ejemplos y demostraciones de habilidades en SQL Server utilizando las bases de datos de ejemplo WideWorldImporters (OLTP) y WideWorldImportersDW (OLAP).
+Este proyecto contiene ejemplos y demostraciones de habilidades en SQL Server utilizando las bases de datos de ejemplo WideWorldImporters.
 
 ## Estructura del Proyecto
 - `/data`: Contiene los archivos de backup de la base de datos.
