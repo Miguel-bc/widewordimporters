@@ -22,9 +22,11 @@ Este proyecto contiene ejemplos y demostraciones de habilidades en SQL Server ut
    cd widewordimporters
 
 ### 2. Descargar los Archivos de la Base de Datos
-Descarga los archivos `.bak` de la base de datos desde los siguientes enlaces y colócalos en la carpeta `/data`:
+Descarga el archivo `.bak` de la base de datos desde el siguiente enlace y colócalo en la carpeta `/data`:
 
-- [WideWorldImporters](https://www.microsoft.com/en-us/download/details.aspx?id=49506)
+- [WideWorldImporters](https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0)
+
+En este proyecto, utilicé la base de datos WideWorldImportersDW-Full.bak para OLAP (Procesamiento Analítico en Línea), ideal para análisis y reportes de datos, mientras que WideWorldImporters-Full.bak, se utiliza para OLTP (Procesamiento de Transacciones en Línea) y HTAP (Procesamiento Híbrido de Transacciones y Análisis). La base de datos OLTP es adecuada para manejar un gran número de transacciones rápidas y consistentes, mientras que HTAP permite realizar análisis operativos en tiempo real.
 
 ### 3. Restaurar las Bases de Datos
 Restaura las bases de datos utilizando SQL Server Management Studio o los scripts de restauración en `/src/scripts`:
