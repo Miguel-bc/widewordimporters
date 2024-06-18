@@ -63,9 +63,8 @@ WITH MOVE 'WWI_DW_Primary' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSS
 Consulta la documentación adicional en `/docs` para más detalles sobre el uso y la estructura del proyecto.
 
 ## Recursos Adicionales
-- [WideWorldImporters OLTP Download](enlace-a-descarga-oltp)
-- [WideWorldImporters OLAP Download](enlace-a-descarga-olap)
-
+- [WideWorldImporters Flujos de trabajo de la empresa ficticia](https://learn.microsoft.com/es-es/sql/samples/wide-world-importers-what-is?view=sql-server-ver16))
+  
 ## Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
